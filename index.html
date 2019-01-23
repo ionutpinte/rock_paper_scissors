@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Rock Paper Scissors</title>
+        <link rel="stylesheet" type="text/css" href="css.css"/>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <div id = "gameContainer">
+            <div id = "playerNameContainer">
+                <div class = "playerName">
+                    <p><span id = "playerName">Player</span> <span id = "playerScore">0</span></p>
+                </div>
+                <div class = "playerName">
+                    <p>Computer <span id = "computerScore">0</span></p>
+                </div>
+            </div>
+            <div id = "optionImageContainer">
+                <div>
+                        <img src = "Images/white.png" id = "playerChosenOption"/>
+                </div>
+                <div>
+                        <img src = "Images/white.png" id = "computerChosenOption"/>
+                </div>
+            </div>
+            <div id = "playerOptionsContainer">
+                <div class ="option">
+                        <img src = "Images/rock.png"  class = "playerOptionImage" id = "optionRock" />
+                </div>
+                <div class ="option">
+                        <img src = "Images/paper.png"  class = "playerOptionImage" id = "optionPaper"/>
+                </div>
+                <div class ="option">
+                        <img src = "Images/scissors.png"  class = "playerOptionImage" id = "optionScissors" />
+                </div>
+            </div>
+            <div id = "winnerContainer">
+                <p id = "winnerText"></p>
+            </div>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
